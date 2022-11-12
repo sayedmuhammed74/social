@@ -166,10 +166,12 @@ nav .icons .user img:hover{
 /* Start Views */
 .view .stories{
     display: flex;
+    justify-content: center;
     align-items: center;
     gap: 10px;
-    margin: 10px;
+    margin: 10px auto;
     border-radius: 15px;
+    width: 87%;
 }
 .view .stories .story{
     width: 110px;
@@ -303,6 +305,7 @@ nav .icons .user img:hover{
 }
 .post .icons > i:first-of-type:hover{
     color: red;
+    transition: 0.4s all;
 }
 .post .likes{
     display: flex;
