@@ -1,7 +1,6 @@
 let hearts = document.querySelectorAll('.fa-heart');
 let commentsIcon = document.querySelectorAll('.commentsIcon');
 
-let post = document.querySelector('.post');
 hearts.forEach((e) => {
   e.onclick = function () {
     if (e.classList.contains('fa-regular')) {
