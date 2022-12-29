@@ -22,10 +22,10 @@ commentsIcon.forEach((e) => {
   e.addEventListener('click', () => {
     e.nextElementSibling.classList.toggle('show-comments');
     if (e.nextElementSibling.classList.contains('show-comments')) {
-      commentsIcon.textContent = 'hide comments';
+      e.textContent = 'hide comments';
       e.parentElement.style.height = '570px';
     } else {
-      commentsIcon.textContent = 'view all 277 comments';
+      e.textContent = 'view all 277 comments';
       e.parentElement.style.height = '480px';
     }
   });
