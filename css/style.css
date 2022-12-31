@@ -586,6 +586,7 @@ ul {
   }
   .view .stories .story span {
     bottom: -58px;
+    font-size:11px;
   }
   .post-container.p-10 {
     padding: 0;
