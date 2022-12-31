@@ -566,7 +566,7 @@ ul {
 
 /* media query */
 
-@media (max-width: 400px) {
+@media (max-width: 778px) {
   .content {
     display: block;
   }
