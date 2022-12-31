@@ -563,3 +563,40 @@ ul {
 .show-comments {
   display: block;
 }
+
+/* media query */
+
+@media (max-width: 400px) {
+  .content {
+    display: block;
+  }
+  .aside,
+  .pages {
+    display: none;
+  }
+  .view .stories {
+    width: 97%;
+  }
+  .view .stories .story {
+    height: 140px;
+  }
+  .px-60 {
+    padding-left: 6px;
+    padding-right: 6px;
+  }
+  .view .stories .story span {
+    bottom: -58px;
+  }
+  .post-container.p-10 {
+    padding: 0;
+  }
+  .post-creator {
+    display: flex;
+    justify-content: space-around;
+    gap: 3px;
+  }
+  nav {
+    display: flex;
+    justify-content: space-around;
+  }
+}
