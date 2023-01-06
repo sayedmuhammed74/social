@@ -22,7 +22,7 @@ commentsIcon.forEach((e) => {
     e.nextElementSibling.classList.toggle('show-comments');
     if (e.nextElementSibling.classList.contains('show-comments')) {
       e.textContent = 'hide comments';
-      e.parentElement.style.height = '570px';
+      e.parentElement.style.height = '650px';
     } else {
       e.textContent = 'view all 277 comments';
       e.parentElement.style.height = '480px';
